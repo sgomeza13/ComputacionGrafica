@@ -3,7 +3,7 @@ import java.awt.Graphics;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import javax.swing.JPanel;
-import javax.swing.JFrame;
+import javax.swing.JFrame;  
 import MathForGP.ReadTextFile;
 import MathForGP.Matrix3x3;
 import MathForGP.Point3;
