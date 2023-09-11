@@ -41,7 +41,7 @@ public class ObjectTransformation {
         TranslScalRot4x4 tsr = new TranslScalRot4x4(dx, dy, dz, 
         sx, sy, sz, 
         thetaX, thetaY, thetaZ,
-        centerX, centerY, centerZ);
+        centerX +dx, centerY + dy, centerZ + dz);
         return tsr;
     }
 
